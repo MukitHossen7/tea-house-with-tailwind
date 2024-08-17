@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tea house</title>
+    <!-- font-awesome-cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+        },
+      };
+    </script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main
+      class="max-w-screen-xl mx-auto font-manrope border-2 border-red-600 px-2 md:px-4"
+    >
+      <!-- banner-section -->
+      <header>
+        <section
+          class="mt-10 lg:mt-14 flex flex-col lg:flex-row gap-8 justify-between"
+        >
+          <!-- text-area -->
+          <div class="space-y-8">
+            <h1 class="text-4xl md:text-7xl font-bold text-[#1C1C1C]">
+              It's good <br />
+              tea time at The <br />
+              Tea House
+            </h1>
+            <p class="max-w-lg text-[#777777] font-medium text-lg">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button
+              class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-2 md:py-4 px-4 md:px-6 text-white font-medium md:font-bold text-lg md:text-xl rounded-lg"
+            >
+              Explore More
+              <i class="fa-solid fa-arrow-right -rotate-45 ml-2"></i>
+            </button>
+          </div>
+          <!-- img-area -->
+          <div class="relative">
+            <div>
+              <img src="images/banner.png" alt="" class="" />
+            </div>
+            <div
+              class="flex items-center gap-3 bg-white shadow-xl py-2 px-3 md:py-4 md:px-6 rounded-lg absolute ml-14 -mt-14 md:-mt-28 md:ml-28 lg:-mt-20 lg:ml-20 xl:ml-28 xl:-mt-28"
+            >
+              <div>
+                <i class="fa-solid fa-star text-[#FFC850] text-2xl"></i>
+              </div>
+              <div>
+                <h3 class="text-[#1C1C1C] text-xl md:text-3xl font-bold">
+                  5.00
+                </h3>
+                <p class="text-[#777777] text-sm md:text-base font-medium">
+                  Trust Pilot Ratings
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+    </main>
+  </body>
+</html>
