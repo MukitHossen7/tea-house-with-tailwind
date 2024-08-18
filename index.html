@@ -24,15 +24,14 @@
     <script>
       tailwind.config = {
         theme: {
-          extend: {},
+          extend: {
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
+          },
         },
       };
     </script>
-    <style>
-      .font-manrope {
-        font-family: "Manrope", sans-serif;
-      }
-    </style>
   </head>
   <body>
     <main class="max-w-screen-xl mx-auto font-manrope px-2 md:px-4">
@@ -220,7 +219,7 @@
 
       <!-- meet-section -->
       <section
-        class="mt-20 md:mt-32 bg-[linear-gradient(270.00deg,rgb(255,0,0)_0%,rgb(255,137,56)_100%)] rounded-lg mb-10"
+        class="mt-20 md:mt-32 bg-[linear-gradient(270.00deg,rgb(255,0,0)_0%,rgb(255,137,56)_100%)] rounded-lg"
       >
         <div
           class="px-5 md:px-16 py-10 md:py-20 grid gap-24 lg:gap-10 grid-cols-1 lg:grid-cols-2 items-center"
@@ -325,6 +324,70 @@
                   <img src="images/circles.png" alt="" />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- new-&-event-section -->
+      <section class="mt-20 md:mt-32 mb-10">
+        <!-- event-text -->
+        <div class="w-full md:w-4/6 mx-auto text-center">
+          <h1 class="font-extrabold text-4xl md:text-5xl text-[#1C1C1C] mb-7">
+            News & Events
+          </h1>
+          <p class="font-medium text-[#777777]">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+
+        <!-- event-card -->
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- card-1 -->
+          <div class="border-2 border-[#D2D2D2] p-5 rounded-xl">
+            <img src="images/news-1.png" alt="" class="mx-auto mb-5 w-full" />
+            <div class="pl-6">
+              <small class="text-[#777777] font-medium">Feb 05, 2027</small>
+              <h4 class="font-extrabold text-2xl text-[#1C1C1C] mt-3">
+                Collecting 8 points for discount
+              </h4>
+              <p class="font-medium text-[#777777] mt-4">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="font-bold text-[#1C1C1C] mt-3">Learn More</button>
+            </div>
+          </div>
+
+          <!-- card-2 -->
+          <div class="border-2 border-[#D2D2D2] p-5 rounded-xl">
+            <img src="images/news-2.png" alt="" class="mx-auto mb-5 w-full" />
+            <div class="pl-6">
+              <small class="text-[#777777] font-medium">Feb 05, 2027</small>
+              <h4 class="font-extrabold text-2xl text-[#1C1C1C] mt-3">
+                Collecting 8 points for discount
+              </h4>
+              <p class="font-medium text-[#777777] mt-4">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="font-bold text-[#1C1C1C] mt-3">Learn More</button>
+            </div>
+          </div>
+
+          <!-- card-3 -->
+          <div class="border-2 border-[#D2D2D2] p-5 rounded-xl">
+            <img src="images/news-3.png" alt="" class="mx-auto mb-5 w-full" />
+            <div class="pl-6">
+              <small class="text-[#777777] font-medium">Feb 05, 2027</small>
+              <h4 class="font-extrabold text-2xl text-[#1C1C1C] mt-3">
+                Collecting 8 points for discount
+              </h4>
+              <p class="font-medium text-[#777777] mt-4">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="font-bold text-[#1C1C1C] mt-3">Learn More</button>
             </div>
           </div>
         </div>
